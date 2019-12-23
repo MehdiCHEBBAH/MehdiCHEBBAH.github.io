@@ -7881,7 +7881,7 @@ header {
 @media (max-width: 767.98px) {
   .about-section .author-img {
     display: block;
-    height: 790px; } }
+    height: 800px; } }
 
 .wrap {
   padding: 0; }
@@ -7892,9 +7892,7 @@ header {
     .wrap .about-desc {
       position: relative; } }
   .wrap .about-desc .bold-text {
-    position: absolute;
-    top: -80px;
-    left: -50px;
+    
     right: 0;
     bottom: 0;
     font-weight: 700 !important;
