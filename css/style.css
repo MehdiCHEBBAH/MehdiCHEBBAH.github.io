@@ -8781,3 +8781,11 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+/****************** Custom CSS *********************/
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
