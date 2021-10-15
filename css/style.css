@@ -11050,14 +11050,11 @@ h5,
 .slider-text .bread {
   font-weight: 700;
   color: #000000;
-  font-size: 60px;
+  /* font-size: 60px; */
 }
 
 .mouse {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 120px;
+  margin-top: 70px;
   z-index: 2;
 }
 
