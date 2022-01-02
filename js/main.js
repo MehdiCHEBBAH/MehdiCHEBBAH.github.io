@@ -440,3 +440,25 @@ $(function() {
 
 });
 
+
+/**
+ * This is for selecting the appropriate version of the website to show
+ * Available versions:
+ * + data_scientist
+ * + software_engineer
+ */
+ const urlParams = new URLSearchParams(window.location.search);
+ const profile = urlParams.get('profile');
+ switch(profile){
+     case "data_scientist":
+        for (let el of document.querySelectorAll('.software_engineer')) {
+            el.parentNode.removeChild(el);
+        }
+        break;
+     case "software_engineer":
+        for (let el of document.querySelectorAll('.data_scientist')) {
+            el.parentNode.removeChild(el);
+        }
+        break;
+ }
+ 
